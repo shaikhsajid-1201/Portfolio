@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajid Shaikh - Data Analyst Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">Sajid Shaikh</a>
+            
+            <button class="menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars menu-icon"></i>
+                <i class="fas fa-times close-icon"></i>
+            </button>
+            
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-left">
+                    <img src="./assets/profile-pic.png" alt="Sajid Shaikh" loading="lazy">
+                </div>
+                <div class="hero-text">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1>Sajid Shaikh</h1>
+                    <h2>Data Analyst</h2>
+                    <p>Transforming data into meaningful insights</p>
+                    <div class="hero-buttons">
+                        <a href="./assets/SajidShaikh_DataAnalyst.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sajid-shaikh-92313732a" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/shaikhsajid-1201" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get To Know More</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <!-- Experience Column -->
+                <div class="experience-column">
+                    <div class="column-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <span class="date">Oct 2024 - Present</span>
+                                </div>
+                                <h4>Data Analyst Intern</h4>
+                                <p class="company">Unified Mentor</p>
+                                <ul class="achievements">
+                                    <li>Developed interactive Power BI dashboards to deliver real-time business insights</li>
+                                    <li>Conducted EDA on large datasets to uncover trends and actionable insights</li>
+                                    <li>Leveraged SQL for data extraction and transformation to support reporting</li>
+                                    <li>Collaborated with stakeholders to align data models with business goals</li>
+                                    <li>Applied Python for data accuracy and informed decision-making</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>Python</span>
+                                    <span>SQL</span>
+                                    <span>Power BI</span>
+                                    <span>Excel</span>
+                                    <span>Statistics</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Template for future experience entries
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <span class="date">Start - End Date</span>
+                                </div>
+                                <h4>Position Title</h4>
+                                <p class="company">Company Name</p>
+                                <ul class="achievements">
+                                    <li>Key achievement 1</li>
+                                    <li>Key achievement 2</li>
+                                    <li>Key achievement 3</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span>Skill 1</span>
+                                    <span>Skill 2</span>
+                                    <span>Skill 3</span>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+
+                <!-- Education Column -->
+                <div class="education-column">
+                    <div class="column-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                            <div class="timeline-card">
+                                <div class="card-header">
+                                    <span class="date">2017 - 2020</span>
+                                </div>
+                                <h4>Bachelor of Commerce</h4>
+                                <p class="institution">Dr. Babasaheb Ambedkar Marathwada University, Aurangabad</p>
+                                <div class="education-details">
+                                    <p>Key Courses:</p>
+                                    <ul>
+                                        <li>Accountancy</li>
+                                        <li>Business Mathematics</li>
+                                        <li>Business Economics</li>
+                                    </ul>
+                                </div>
+                                <div class="grade">
+                                    <i class="fas fa-star"></i>
+                                    <span>Percentage: 69%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Technical Expertise</span>
+                <h2 class="section-title">My Skills</h2>
+            </div>
+
+            <div class="skills-slider">
+                <div class="scroll-container">
+                    <div class="scroll-track">
+                        <!-- Original Skills -->
+                        <div class="scroll-content">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-file-excel"></i>
+                                <span>Excel</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Power BI</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>Statistics</span>
+                            </div>
+                        </div>
+                        <!-- First Duplicate -->
+                        <div class="scroll-content">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-file-excel"></i>
+                                <span>Excel</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Power BI</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>Statistics</span>
+                            </div>
+                        </div>
+                        <!-- Second Duplicate for smoother transition -->
+                        <div class="scroll-content">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-file-excel"></i>
+                                <span>Excel</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Power BI</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-calculator"></i>
+                                <span>Statistics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Recent Work</span>
+                <h2 class="section-title">My Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Power BI Project Card -->
+                <div class="project-card powerbi">
+                    <div class="project-image">
+                        <img src="./assets/Election_Analysis.png" alt="Sales Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiNjIyYmIwYTEtYzA1ZC00NzRlLTk4ZjktMzZkODEzMDhhMGIwIiwidCI6ImU0NDMzZDUzLThhMWMtNDgwNC05Y2FlLTI2NTcxMjgyNzk3OSIsImMiOjEwfQ%3D%3D" class="preview-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Preview
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Maharashtra MLA Election Dashboard</h3>
+                        <p>
+                            A Power BI dashboard analyzing Maharashtra's MLA election results with interactive Shape Maps and filters. Key metrics include party representation, voter turnout, and constituency performance across 288 regions, offering detailed insights through visual data comparisons.
+                        </p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Power Query</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GitHub Project Card -->
+                <div class="project-card github">
+                    <div class="project-image">
+                        <img src="project2-thumbnail.jpg" alt="Data Analysis">
+                        <div class="project-overlay">
+                            <a href="github-repo-link" class="github-btn" target="_blank">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Analysis Pipeline</h3>
+                        <p>Automated data processing pipeline using Python and Pandas for large-scale data analysis.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Template for Easy Addition -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="project-thumbnail.jpg" alt="Project Name">
+                        <div class="project-overlay">
+                            <!-- Dynamic buttons based on project type -->
+                            <a href="project-link" class="preview-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Title</h3>
+                        <p>Project description goes here. Keep it concise and impactful.</p>
+                        <div class="project-tech">
+                            <span>Tech 1</span>
+                            <span>Tech 2</span>
+                            <span>Tech 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Left Side - Contact Cards -->
+                <div class="contact-cards">
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Email</h3>
+                            <p>sajidshaikh@gmail.com</p>
+                            <a href="mailto:sajidshaikh@gmail.com" class="contact-link">
+                                Send Email
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <div class="contact-card">
+                        <div class="card-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>LinkedIn</h3>
+                            <p>Let's connect professionally</p>
+                            <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-link linkedin">
+                                Connect on LinkedIn
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Card -->
+                    <div class="contact-card">
+                        <div class="card-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>WhatsApp</h3>
+                            <p>Quick chat or call</p>
+                            <a href="https://wa.me/yourphonenumber" target="_blank" class="contact-link whatsapp">
+                                Message on WhatsApp
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Professional Growth</span>
+                <h2 class="section-title">Certifications</h2>
+            </div>
+            
+            <div class="certifications-grid">
+                <!-- Google Analytics Certificate -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <img src="google-logo.png" alt="Google" class="cert-logo">
+                        <span class="cert-issuer">Google</span>
+                    </div>
+                    <div class="cert-body">
+                        <h3>Google Data Analytics</h3>
+                        <p class="cert-description">
+                            Professional certification in data analytics, covering advanced analytics tools and methodologies.
+                        </p>
+                        <div class="cert-meta">
+                            <span class="cert-date">
+                                <i class="far fa-calendar-alt"></i>
+                                Issued Dec 2023
+                            </span>
+                            <span class="cert-id">
+                                <i class="fas fa-fingerprint"></i>
+                                ID: GDA-2023-1234
+                            </span>
+                        </div>
+                        <div class="cert-skills">
+                            <span>SQL</span>
+                            <span>R Programming</span>
+                            <span>Tableau</span>
+                        </div>
+                    </div>
+                    <div class="cert-footer">
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                        <a href="#" class="cert-link" target="_blank">
+                            View Certificate
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- IBM Data Science Certificate -->
+                <div class="cert-card">
+                    <div class="cert-header">
+                        <img src="ibm-logo.png" alt="IBM" class="cert-logo">
+                        <span class="cert-issuer">IBM</span>
+                    </div>
+                    <div class="cert-body">
+                        <h3>Data Science Professional</h3>
+                        <p class="cert-description">
+                            Comprehensive certification in data science fundamentals and advanced concepts.
+                        </p>
+                        <div class="cert-meta">
+                            <span class="cert-date">
+                                <i class="far fa-calendar-alt"></i>
+                                Issued Nov 2023
+                            </span>
+                            <span class="cert-id">
+                                <i class="fas fa-fingerprint"></i>
+                                ID: IBM-DS-5678
+                            </span>
+                        </div>
+                        <div class="cert-skills">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Statistics</span>
+                        </div>
+                    </div>
+                    <div class="cert-footer">
+                        <div class="cert-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                        <a href="#" class="cert-link" target="_blank">
+                            View Certificate
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <!-- About Section -->
+                    <div class="footer-section">
+                        <h3>Sajid Shaikh</h3>
+                        <p class="footer-about">
+                            Data Analyst passionate about transforming data into actionable insights. 
+                            Specialized in Python, SQL, and Business Intelligence.
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-section">
+                        <h4>Contact Info</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+91 1234567890</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>sajidshaikh@gmail.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Mumbai, India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Sajid Shaikh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
