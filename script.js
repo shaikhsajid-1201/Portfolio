@@ -186,6 +186,12 @@ const navLinksItems = document.querySelectorAll('.nav-link');
 // Add transition delay for each menu item
 navLinksItems.forEach((link, index) => {
     link.style.transitionDelay = `${index * 0.1}s`;
+    
+    // Add click event listener to each nav link
+    link.addEventListener('click', () => {
+        menuBtn.classList.remove('active');
+        navLinks.classList.remove('active');
+    });
 });
 
 menuBtn.addEventListener('click', (e) => {
